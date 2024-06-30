@@ -7,6 +7,12 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    // screens: {
+    //   // @media (max-width: 1200px) { ... }
+    //   md: { max: '1200px' },
+    //   // @media (max-width: 767px) { ... }
+    //   sm: { max: '767px' },
+    // },
     extend: {
       gridTemplateColumns: {
         '13': 'repeat(13, minmax(0, 1fr))',

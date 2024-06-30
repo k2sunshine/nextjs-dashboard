@@ -1,3 +1,6 @@
+import '@/app/ui/global.css';
+// import { pretendard } from '@/app/ui/font';
+
 export default function RootLayout({
   children,
 }: {
